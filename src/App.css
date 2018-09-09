@@ -1,0 +1,75 @@
+.header-color {
+  background: #00F260;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.landing-grid {
+  background: #00F260;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.banner-text {
+  font-family: 'Roboto', sans-serif;
+  opacity: 1;
+}
+
+.banner {
+  background-color: black;
+  opacity: .8;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin: auto;
+  border-radius: 10px;
+  word-wrap: normal;
+}
+
+
+.banner h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner hr {
+  border-top: 5px dotted white;
+  margin: auto;
+}
+
+.banner p {
+  font-family: 'Roboto', sans-serif;
+  color:white;
+  font-size: 20px;
+  padding: 1em;
+  margin: auto;
+  text-align: center;
+}
+
+.social-links {
+  font-size: 2.5em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.social-links i, .social-links a {
+  padding-bottom: .3em;
+  width: 50px;
+  color: white;
+  text-decoration: none;
+}
+
+.profilePhoto {
+  border-radius: 50%;
+  height: 150px;
+  margin-top: 2em;
+  border-style: dotted;
+  border-color: grey;
+}
+
+#mainbox {
+  margin: auto;
+  text-align: center;
+}
