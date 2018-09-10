@@ -26,7 +26,7 @@ class Resume extends Component {
           <p>jvik.no</p>
         </div>
 
-          <div className="resume-right-col">
+        <div className="resume-right-col">
           <h3>Erfaring</h3>
             <Experience
               startYear={2018} 
@@ -95,8 +95,6 @@ class Resume extends Component {
               workplaceName="Borettslaget Kringsjåveien 99"
               workplaceTitle="Styreleder"
                 />
-
-
         </div>
       </section>
     )
