@@ -37,7 +37,7 @@ class Projects extends Component {
     else if (this.state.activeTab === 1) {
       return (
         <div>
-          <h1>This is Test</h1>
+          <h1>Nothing here yet</h1>
         </div>
       )
     }

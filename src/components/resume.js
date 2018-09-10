@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import contactphoto from '../contactphoto.jpg';
+import contactphoto from '../photo.png';
 import Education from './education';
 import Experience from './experience';
 
@@ -15,19 +15,19 @@ class Resume extends Component {
             </div>
             <h2 style={{paddingTop: '0.5em'}}>Jørgen Vik</h2>
             <h4 style={{color: 'grey'}}>Developer / Consultant</h4>
-            <hr style={{borderTop: '3px solid #833fb2', width: '90%'}}/>
+            <hr style={{borderTop: '3px solid #0c74e4', width: '90%'}}/>
             <p>Erfaren, faglært teknisk konsulent og IKT-koordinator med fartstid innen brukerstøtte, serverdrift og ASP-teknologier. 
             Dyktig i Windows Server, Linux og skytjenester. Grunnleggende ferdigheter i objektorientert programmering og front end webutvikling.</p>
-            <hr style={{borderTop: '3px solid #833fb2', width: '90%'}}/>
+            <hr style={{borderTop: '3px solid #0c74e4', width: '90%'}}/>
             <h5>Address</h5>
             <p>Kringsjåveien 99A, 5163 Laksevåg</p>
             <h5>Email</h5>
             <p>mail@jvik.no</p>
             <h5>Web</h5>
             <p>jvik.no</p>
-            <hr style={{borderTop: '3px solid #833fb2', width: '90%'}}/>
+            <hr style={{borderTop: '3px solid #0c74e4', width: '90%'}}/>
           </Cell>
-          <Cell className="resume-right-col" col={4}>
+          <Cell className="resume-right-col" col={6}>
 
             <Experience
               startYear={2018} 
@@ -55,7 +55,7 @@ class Resume extends Component {
               Konfigurering, migrering og drift av Office 365-løsninger. Oppfølging av drift og support, samt rådgivning og mersalg."
                 />
 
-            <hr style={{borderTop: '3px solid #e22947', width: '100%'}}/>
+            <hr style={{borderTop: '3px solid #00f160', width: '100%'}}/>
 
             <Education 
               startYear={2017} 
