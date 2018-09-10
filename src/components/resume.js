@@ -27,6 +27,7 @@ class Resume extends Component {
         </div>
 
           <div className="resume-right-col">
+          <h3>Erfaring</h3>
             <Experience
               startYear={2018} 
               endYear="Nåværende" 
@@ -55,6 +56,7 @@ class Resume extends Component {
 
             <hr style={{borderTop: '3px solid #00f160', width: '100%'}}/>
 
+            <h3>Utdanning</h3>
             <Education 
               startYear={2017} 
               endYear={2019} 
@@ -76,6 +78,25 @@ class Resume extends Component {
               schoolName="Akademiet"
               educationTitle="Medier og kommunikasjon"
               />
+
+            <hr style={{borderTop: '3px solid #00f160', width: '100%'}}/>
+            
+            <h3>Verv</h3>
+            <Experience
+              startYear={2017} 
+              endYear="Nåværende"
+              workplaceName="Borettslaget Kringsjåveien 99"
+              workplaceTitle="Styremedlem"
+                />
+
+            <Experience
+              startYear={2016} 
+              endYear={2017} 
+              workplaceName="Borettslaget Kringsjåveien 99"
+              workplaceTitle="Styreleder"
+                />
+
+
         </div>
       </section>
     )

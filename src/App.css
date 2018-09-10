@@ -1,13 +1,15 @@
+/* Landing page css */
+
 .header-color {
-  background: #00F260;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #12c2e9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid {
-  background: #00F260;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #12c2e9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .banner-text {
@@ -23,7 +25,6 @@
   margin: auto;
   border-radius: 10px;
   word-wrap: normal;
-  max-width: 80%;
 }
 
 
@@ -87,20 +88,19 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  flex: 0 0 auto;
 }
 
 .projectCard {
+  
   padding: 0.5em;
 }
 
-/* contact page css */
+/* Contact page css */
 
 .contact-body {
   margin: auto;
-  background: #00F260;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   position: fixed;
   width: 100%;
   height: 100%;
@@ -116,7 +116,7 @@
   background: white;
   color: black;
   /* border: 1px solid black; */
-  box-shadow: 0px 0px 3px #000000;
+  /* box-shadow: 0px 0px 3px #000000; */
 }
 
 .contact-grid h2, .contact-grid p {
@@ -157,4 +157,9 @@
   padding: 1.5em;
   width: 60%;
   flex-grow: 1;
+}
+
+.resume-right-col h3 {
+  padding: 0.4em;
+  margin: 0;
 }

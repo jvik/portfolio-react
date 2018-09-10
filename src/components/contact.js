@@ -8,33 +8,28 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6}>
-            <h2>Jørgen Vik</h2>
-            <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>Erfaren, faglært teknisk konsulent og IKT-koordinator med fartstid innen brukerstøtte, serverdrift og ASP-teknologier. Dyktig i Windows Server, Linux og skytjenester. Grunnleggende ferdigheter i objektorientert programmering og front end webutvikling.</p>
-          </Cell>
-
-          <Cell col={6}>
-            <h2>Contact me</h2>
+            <h2>Kontakt meg</h2>
             <hr/>
             <div className="contact-list">
               <List>
                 <ListItem>
                   <ListItemContent style={{fontSize: '25px'}}>
                     <i className="fa fa-phone-square" aria-hidden="true"/>
-                    +47 91 99 99 47
+                    <a href="tel:004791999947">+47 91 99 99 47</a>
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '25px'}}>
                   <i className="fas fa-envelope-square"></i>
-                    mail@jvik.no
+                  <a href="mailto:mail@jvik.no">mail@jvik.no</a>
                   </ListItemContent>
                 </ListItem>
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '25px'}}>
                   <i className="fab fa-skype"></i>
-                    jorgenvik
+                    <a href="skype:jorgenvik">jorgenvik</a>
                   </ListItemContent>
                 </ListItem>
               </List>
