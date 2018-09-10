@@ -19,7 +19,7 @@ class App extends Component {
           </Header>
           <Drawer title="Min portfolio">
             <Navigation>
-            <a href="/">Home</a>
+            <a href="/">Hjem</a>
             <a href="/resume">CV</a>
             <a href="/projects">Prosjekter</a>
             <a href="/contact">Kontakt meg</a>
