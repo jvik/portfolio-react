@@ -23,6 +23,7 @@
   margin: auto;
   border-radius: 10px;
   word-wrap: normal;
+  max-width: 80%;
 }
 
 
@@ -136,9 +137,24 @@
 
 /* Resume Page CSS */
 
+.resume-container {
+  display: flex;
+  padding: 2em;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.resume-left-col {
+  width: 30%;
+  min-width: 200px;
+  flex-grow: 1;
+}
+
 .resume-right-col {
   background: #27221F;
   color: white;
-  padding: 2em;
-  min-width: 600px;
+  padding: 1.5em;
+  width: 60%;
+  flex-grow: 1;
 }
