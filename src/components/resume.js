@@ -37,8 +37,8 @@ class Resume extends Component {
                 />
 
             <Experience
-              startYear={2002} 
-              endYear={2006} 
+              startYear={2012} 
+              endYear={2018} 
               workplaceName="Candidator"
               workplaceTitle="Teknisk konsulent"
               workplaceDescription="Teknisk kundeansvar for en rekke små og mellomstore bedrifter. Drift, overvåkning og support av Windows Server ASP- og Linux-miljøer på Hyper-V og VMware.
