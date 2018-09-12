@@ -14,13 +14,21 @@ class Projects extends Component {
         <div className="cardContainer">
           <Card className="projectCard" shadow={3} style={{margin: '2em'}}>
             <CardTitle>INFO134 Prosjekt</CardTitle>
-            <CardText>
+            <CardText style={{height: '100%'}}>
               <p>Webside utviklet med HTML, CSS og JavaScript. Responsiv nettside ved bruk av flexbox og grid. Effektiv bruk av semantiske tagger i HTML5. 
               API integrasjoner mot data.norge.no for å hente og prosessere informasjon fra eksterne kilder.</p>
             </CardText>
             <CardActions border>
               <a href="https://github.com/jvik/INFO134-Semesteroppgave-Nystudent"><Button colored>GitHub</Button></a>
-              <Button colored>Preview</Button>
+            </CardActions>
+          </Card>
+          <Card className="projectCard" shadow={3} style={{margin: '2em'}}>
+            <CardTitle>Denne portfolioen</CardTitle>
+            <CardText style={{height: '100%'}}>
+              <p>Mitt første prosjekt med ReactJS. Bruk av React-MDL for ulike elementer og layout på siden.</p>
+            </CardText>
+            <CardActions border>
+              <a href="https://github.com/jvik/portfolio-react"><Button colored>GitHub</Button></a>
             </CardActions>
           </Card>
         </div>
@@ -31,12 +39,11 @@ class Projects extends Component {
         <div className="cardContainer">
           <Card className="projectCard" shadow={3} style={{margin: '2em'}}>
             <CardTitle>INFO116 Prosjekt</CardTitle>
-            <CardText>
+            <CardText style={{height: '100%'}}>
               <p>Opprettet ontologi for øl-nettsted med bruk av Protégé. Implementert microdata og RDFa Lite i en mockupside for å demonstere bruk av semantiske teknologier i web. Bruk av Apache Jena Fuseki og SPARQL for å gjøre spørringer mot ontologi.</p>
             </CardText>
             <CardActions border>
               <a href="https://github.com/jvik/INFO116-Gruppeoppgave"><Button colored>GitHub</Button></a>
-              <Button colored>Preview</Button>
             </CardActions>
           </Card>
         </div>
