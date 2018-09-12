@@ -12,32 +12,33 @@ class Projects extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div className="cardContainer">
-          <Card className="projectCard" shadow={3} style={{width: '300px', height: '500px', margin: '2em'}}>
-            <CardTitle style={{color: 'black', height: '250px', background: `url(${nystudentbilde}) center / cover`}}>INFO134 Prosjekt</CardTitle>
+          <Card className="projectCard" shadow={3} style={{margin: '2em'}}>
+            <CardTitle>INFO134 Prosjekt</CardTitle>
             <CardText>
               <p>Webside utviklet med HTML, CSS og JavaScript. Responsiv nettside ved bruk av flexbox og grid. Effektiv bruk av semantiske tagger i HTML5. 
               API integrasjoner mot data.norge.no for å hente og prosessere informasjon fra eksterne kilder.</p>
             </CardText>
-            <Button colored>GitHub</Button>
-            <Button colored>Preview</Button>
-          </Card>
-          <Card className="projectCard" shadow={3} style={{width: '300px', height: '500px', margin: '2em'}}>
-            <CardTitle style={{color: 'black', height: '250px', background: 'URL(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F6%2F6a%2FJavaScript-logo.png&f=1) center / cover'}}>INFO134 Prosjekt</CardTitle>
-            <CardText>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id eros ante. Fusce neque sem, dictum et tortor eu, tempus fringilla turpis. 
-                Duis porttitor orci at tempor faucibus. Vivamus et diam in sapien dapibus molestie. Nam ex augue, ultricies at enim vel, egestas sagittis magna. 
-                Nulla sem orci, mollis malesuada pulvinar id, pulvinar porttitor odio. Nullam commodo varius tristique.</p>
-            </CardText>
-            <Button colored>GitHub</Button>
-            <Button colored>Preview</Button>
+            <CardActions border>
+              <a href="https://github.com/jvik/INFO134-Semesteroppgave-Nystudent"><Button colored>GitHub</Button></a>
+              <Button colored>Preview</Button>
+            </CardActions>
           </Card>
         </div>
       )
     }
     else if (this.state.activeTab === 1) {
       return (
-        <div>
-          <h1>Nothing here yet</h1>
+        <div className="cardContainer">
+          <Card className="projectCard" shadow={3} style={{margin: '2em'}}>
+            <CardTitle>INFO116 Prosjekt</CardTitle>
+            <CardText>
+              <p>Opprettet ontologi for øl-nettsted med bruk av Protégé. Implementert microdata og RDFa Lite i en mockupside for å demonstere bruk av semantiske teknologier i web. Bruk av Apache Jena Fuseki og SPARQL for å gjøre spørringer mot ontologi.</p>
+            </CardText>
+            <CardActions border>
+              <a href="https://github.com/jvik/INFO116-Gruppeoppgave"><Button colored>GitHub</Button></a>
+              <Button colored>Preview</Button>
+            </CardActions>
+          </Card>
         </div>
       )
     }
