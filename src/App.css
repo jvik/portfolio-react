@@ -1,29 +1,4 @@
 /* Landing page css */
-@media screen and (min-width: 1125px) {
-  .mdl-layout__drawer-button {
-      /* Hide the Hamburger button but will leave an unused space */
-      display: none;
-  }
-  .mdl-layout__header-row {
-      /* so important to make sure the Hamburger button didn't leave an unused space */
-      padding-left: 24px !important; 
-  }
-  .mdl-layout__drawer-button {
-    visibility: hidden;
-    display: none;
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-  }
-  .material-icons {
-    visibility: hidden;
-    display: none;
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-  }
-}
-
 .header-color {
   background: #12c2e9;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
@@ -88,8 +63,20 @@
 }
 
 .profile-photo {
+  right: 50%;
   border-radius: 50%;
   height: 150px;
+  width: 150px;
+  margin-top: 2em;
+  border-style: dotted;
+  border-color: grey;
+}
+.cv-photo {
+  right: 50%;
+  margin-right: 28px;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
   margin-top: 2em;
   border-style: dotted;
   border-color: grey;

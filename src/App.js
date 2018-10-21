@@ -7,19 +7,19 @@ import { Link } from 'react-router-dom';
 class App extends Component {
   render () {
     return (
-      <div className="demo-big-content">
+      <div className="mdl-layout mdl-js-layout mdl-layout--no-desktop-drawer-button">
         <Layout>
-          <Header className="header-color" scroll>
-            <Navigation>
-              <a href="/">Hjem</a>
+          <Header className="header-color mdl-layout--large-screen-only" scroll>
+            <Navigation className="">
+              <a href="/">Hjemnavbar</a>
               <a href="/resume">CV</a>
               <a href="/projects">Prosjekter</a>
               <a href="/contact">Kontakt meg</a>
             </Navigation>
           </Header>
-          <Drawer className="hide-on-large-only">
+          <Drawer className="">
             <Navigation>
-            <a href="/">Hjem</a>
+            <a href="/">Hjemdrawer</a>
             <a href="/resume">CV</a>
             <a href="/projects">Prosjekter</a>
             <a href="/contact">Kontakt meg</a>

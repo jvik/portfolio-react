@@ -9,8 +9,8 @@ class Resume extends Component {
     return (
       <section className="resume-container">
         <div className="resume-left-col">
-          <div style={{textAlign: 'center'}}> 
-              <img className="profile-photo" src={contactphoto} alt="avatar" style={{height: '200px'}}/> 
+          <div className="photo-container" style={{textAlign: 'center'}}> 
+              <img className="cv-photo" src={contactphoto} alt="avatar" style={{height: '200px'}}/> 
           </div>
           <h2 style={{paddingTop: '0.5em', marginBottom: '0px'}}>Jørgen Vik</h2>
           <h4 style={{color: 'grey', paddingTop: '0px', marginTop: '0px'}}>Utvikler / Konsulent</h4>
