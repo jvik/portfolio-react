@@ -11,7 +11,7 @@ class App extends Component {
         <Layout>
           <Header className="header-color mdl-layout--large-screen-only" scroll>
             <Navigation className="">
-              <a href="/">Hjemnavbar</a>
+              <a href="/">Hjem</a>
               <a href="/resume">CV</a>
               <a href="/projects">Prosjekter</a>
               <a href="/contact">Kontakt meg</a>
@@ -19,7 +19,7 @@ class App extends Component {
           </Header>
           <Drawer className="">
             <Navigation>
-            <a href="/">Hjemdrawer</a>
+            <a href="/">Hjem</a>
             <a href="/resume">CV</a>
             <a href="/projects">Prosjekter</a>
             <a href="/contact">Kontakt meg</a>
