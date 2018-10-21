@@ -15,7 +15,7 @@ class Resume extends Component {
           <h2 style={{paddingTop: '0.5em', marginBottom: '0px'}}>Jørgen Vik</h2>
           <h4 style={{color: 'grey', paddingTop: '0px', marginTop: '0px'}}>Utvikler / Konsulent</h4>
           <hr style={{borderTop: '3px solid #12c2e9', width: '98%'}}/>
-          <p>Erfaren, faglært teknisk konsulent og IKT-koordinator med fartstid innen brukerstøtte, serverdrift og ASP-teknologier. 
+          <p>Erfaren utvikler og teknisk konsulent med fartstid innen brukerstøtte, serverdrift og ASP-teknologier. 
           Dyktig i Windows Server, Linux og skytjenester. Grunnleggende ferdigheter i objektorientert programmering og front end webutvikling.</p>
           <hr style={{borderTop: '3px solid #12c2e9', width: '98%'}}/>
           <h5>Address</h5>
@@ -31,6 +31,13 @@ class Resume extends Component {
             <Experience
               startYear={2018} 
               endYear="Nåværende" 
+              workplaceName="Supernode"
+              workplaceTitle="Utvikler"
+              workplaceDescription="Juniorstilling som full stack utvikler med fokus på Aurelia, Apostrophe og node.js"
+                />
+            <Experience
+              startYear={2018} 
+              endYear={2018} 
               workplaceName="Keolis"
               workplaceTitle="IKT-koordinator"
               workplaceDescription="Deltidsstilling hos Bybanens driftspartner, Keolis. Rådgivning og koordinering rundt digitalisering, prosesser og IT-drift/support."
