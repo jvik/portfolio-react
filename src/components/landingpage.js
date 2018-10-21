@@ -10,7 +10,7 @@ class LandingPage extends Component {
         <cell id="mainbox" col={12}>
           <img className="profile-photo" src={profilePhoto} alt="avatar"/>
           <div className="banner">
-            <h1 className="banner-text">Utvikler / Konsulent</h1>
+            <h1 className="banner-text">System&shy;utvikler</h1>
             <hr/>
             <p className="banner-text">HTML / CSS | JavaScript | Java</p>
             <div className="social-links">
