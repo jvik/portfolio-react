@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import profilePhoto from '../photo.png';
+import profilePhoto from './static/photo.png';
 
 class LandingPage extends Component {
   render () {
