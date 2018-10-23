@@ -66,10 +66,10 @@ class Resume extends Component {
             <h3>Utdanning</h3>
             <Education 
               startYear={2017} 
-              endYear={2019} 
+              endYear={2018} 
               schoolName="UiB"
               educationTitle="Informasjonsvitenskap"
-              schoolDescription="Bachelorstudier med bred teoretisk og teknisk innføring til informasjons- og kommunikasjonsteknologi."
+              schoolDescription="Enkeltfag med bred teoretisk og teknisk innføring til informasjons- og kommunikasjonsteknologi."
                 />
 
             <Education 
@@ -77,6 +77,7 @@ class Resume extends Component {
               endYear={2009} 
               schoolName="Akademiet"
               educationTitle="IKT-servicefag"
+              schoolDescription="Utplassering hos Helse Midt-Norge IT"
                 />
 
             <Education 
@@ -84,6 +85,7 @@ class Resume extends Component {
               endYear={2008} 
               schoolName="Akademiet"
               educationTitle="Medier og kommunikasjon"
+              schoolDescription="Fordypning i fotografi"
               />
 
             <hr style={{borderTop: '3px solid #f64f59', width: '100%'}}/>
