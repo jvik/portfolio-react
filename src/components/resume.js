@@ -14,10 +14,10 @@ class Resume extends Component {
           </div>
           <h2 style={{paddingTop: '0.5em', marginBottom: '0px'}}>Jørgen Vik</h2>
           <h4 style={{color: 'grey', paddingTop: '0px', marginTop: '0px'}}>Utvikler / Konsulent</h4>
-          <hr style={{borderTop: '3px solid #12c2e9', width: '98%'}}/>
+          <hr style={{borderTop: '3px solid #2c3e50', width: '98%'}}/>
           <p>Erfaren utvikler og teknisk konsulent med fartstid innen brukerstøtte, serverdrift og ASP-teknologier. 
           Dyktig i Windows Server, Linux og skytjenester. Grunnleggende ferdigheter i objektorientert programmering og front end webutvikling.</p>
-          <hr style={{borderTop: '3px solid #12c2e9', width: '98%'}}/>
+          <hr style={{borderTop: '3px solid #2c3e50', width: '98%'}}/>
           <h5>Address</h5>
           <p>Kringsjåveien 99A, 5163 Laksevåg</p>
           <h5>Email</h5>
@@ -61,7 +61,7 @@ class Resume extends Component {
               Konfigurering, migrering og drift av Office 365-løsninger. Oppfølging av drift og support, samt rådgivning og mersalg."
                 />
 
-            <hr style={{borderTop: '3px solid #f64f59', width: '100%'}}/>
+            <hr style={{borderTop: '3px solid #bdc3c7', width: '100%'}}/>
 
             <h3>Utdanning</h3>
             <Education 
@@ -88,7 +88,7 @@ class Resume extends Component {
               schoolDescription="Fordypning i fotografi"
               />
 
-            <hr style={{borderTop: '3px solid #f64f59', width: '100%'}}/>
+            <hr style={{borderTop: '3px solid #bdc3c7', width: '100%'}}/>
             
             <h3>Verv</h3>
             <Experience
