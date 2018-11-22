@@ -28,8 +28,8 @@ class Contact extends Component {
 
                 <ListItem>
                   <ListItemContent style={{fontSize: '25px'}}>
-                  <i className="fab fa-skype"></i>
-                    <a href="skype:jorgenvik">jorgenvik</a>
+                  <i className="fab fa-linkedin-in"></i>
+                    <a href="https://www.linkedin.com/in/vikjorgen/">vikjorgen</a>
                   </ListItemContent>
                 </ListItem>
               </List>

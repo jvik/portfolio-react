@@ -19,11 +19,11 @@ class Resume extends Component {
           Dyktig i Windows Server, Linux og skytjenester. Grunnleggende ferdigheter i objektorientert programmering og front end webutvikling.</p>
           <hr style={{borderTop: '3px solid #2c3e50', width: '98%'}}/>
           <h5>Address</h5>
-          <p>Kringsjåveien 99A, 5163 Laksevåg</p>
+          <p>Sjursvikveien 1A, 6507 Kristiansund</p>
           <h5>Email</h5>
           <p>mail@jvik.no</p>
-          <h5>Web</h5>
-          <p>jvik.no</p>
+          <h5>Linkedin</h5>
+          <p><a href="https://www.linkedin.com/in/vikjorgen/">vikjorgen</a></p>
         </div>
 
         <div className="resume-right-col">
