@@ -1,0 +1,8 @@
+{
+	"short_name": "vik.dev",
+	"name": "Portfolio Jørgen Vik",
+	"start_url": "./index.html",
+	"display": "standalone",
+	"theme_color": "#000000",
+	"background_color": "#ffffff"
+}
