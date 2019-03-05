@@ -1,8 +1,17 @@
 {
-  "main.css": "static/css/main.e5b954ab.css",
-  "main.css.map": "static/css/main.e5b954ab.css.map",
-  "main.js": "static/js/main.cec73fe3.js",
-  "main.js.map": "static/js/main.cec73fe3.js.map",
-  "static\\media\\nystudent.png": "static/media/nystudent.7bd9fe0f.png",
-  "static\\media\\photo.png": "static/media/photo.8e348197.png"
+  "main.css": "/portfolio-react/static/css/main.dacae14b.chunk.css",
+  "main.js": "/portfolio-react/static/js/main.621defe0.chunk.js",
+  "main.js.map": "/portfolio-react/static/js/main.621defe0.chunk.js.map",
+  "runtime~main.js": "/portfolio-react/static/js/runtime~main.780bcbc7.js",
+  "runtime~main.js.map": "/portfolio-react/static/js/runtime~main.780bcbc7.js.map",
+  "static/css/2.2331d0fd.chunk.css": "/portfolio-react/static/css/2.2331d0fd.chunk.css",
+  "static/js/2.bfeaffd1.chunk.js": "/portfolio-react/static/js/2.bfeaffd1.chunk.js",
+  "static/js/2.bfeaffd1.chunk.js.map": "/portfolio-react/static/js/2.bfeaffd1.chunk.js.map",
+  "index.html": "/portfolio-react/index.html",
+  "precache-manifest.0470e5daa6515ccaf40686b960df546c.js": "/portfolio-react/precache-manifest.0470e5daa6515ccaf40686b960df546c.js",
+  "service-worker.js": "/portfolio-react/service-worker.js",
+  "static/css/2.2331d0fd.chunk.css.map": "/portfolio-react/static/css/2.2331d0fd.chunk.css.map",
+  "static/css/main.dacae14b.chunk.css.map": "/portfolio-react/static/css/main.dacae14b.chunk.css.map",
+  "static/media/nystudent.png": "/portfolio-react/static/media/nystudent.7bd9fe0f.png",
+  "static/media/photo.png": "/portfolio-react/static/media/photo.8e348197.png"
 }
