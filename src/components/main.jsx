@@ -1,11 +1,11 @@
-import React from 'react'
-import { Switch, Route } from 'react-router-dom'
+import React from "react";
+import { Switch, Route } from "react-router-dom";
 
-import LandingPage from './landingpage'
-import Resume from './resume'
-import Contact from './contact'
-import Projects from './projects'
-import AboutMe from './aboutme'
+import LandingPage from "./landingpage";
+import Resume from "./resume";
+import Contact from "./contact";
+import Projects from "./projects";
+import AboutMe from "./aboutme";
 
 const Main = () => (
   <Switch>
@@ -15,6 +15,6 @@ const Main = () => (
     <Route path="/resume" component={Resume} />
     <Route path="/projects" component={Projects} />
   </Switch>
-)
+);
 
 export default Main;
