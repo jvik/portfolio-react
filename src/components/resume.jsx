@@ -33,7 +33,7 @@ class Resume extends Component {
               endYear="Nåværende" 
               workplaceName="Supernode"
               workplaceTitle="Utvikler"
-              workplaceDescription="Juniorstilling som full stack utvikler med fokus på Aurelia, Apostrophe og node.js"
+              workplaceDescription="Full stack webutviking med fokus på Vue.js og Aurelia, arbeid med og mot express backends med REST API og GraphQL. DevOps relaterte oppgaver rundt konfigurasjon og vedlikehold av pipelines i CI/CD verktøy, samt docker for utvikling og produksjon."
                 />
             <Experience
               startYear={2018} 
