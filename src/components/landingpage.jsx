@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Grid, Cell } from "react-mdl";
+import { Grid } from "react-mdl";
 import profilePhoto from "./static/photo.png";
 
 class LandingPage extends Component {
@@ -20,7 +20,7 @@ class LandingPage extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i class="fab fa-linkedin-in" />
+                  <i className="fab fa-linkedin-in" />
                 </a>
                 {/* GitHub */}
                 <a
@@ -28,7 +28,7 @@ class LandingPage extends Component {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <i class="fab fa-github" />
+                  <i className="fab fa-github" />
                 </a>
               </div>
             </div>

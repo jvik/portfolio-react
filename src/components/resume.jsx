@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Grid, Cell } from "react-mdl";
 import contactphoto from "./static/photo.png";
 import Education from "./education";
 import Experience from "./experience";

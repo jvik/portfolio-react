@@ -25,4 +25,12 @@ class Experience extends Component {
   }
 }
 
+Experience.propTypes = {
+  startYear: PropTypes.number,
+  endYear: PropTypes.number,
+  workplaceName: propTypes.string,
+  workplaceTitle: propTypes.string,
+  workplaceDescription: propTypes.string
+};
+
 export default Experience;
