@@ -8,11 +8,8 @@ import {
   CardTitle,
   CardText,
   CardActions,
-  Button,
-  CardMenu,
-  IconButton
+  Button
 } from "react-mdl";
-import nystudentbilde from "./static/nystudent.png";
 
 class Projects extends Component {
   constructor(props) {

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
+import PropTypes from "prop-types";
 
 class Experience extends Component {
   render() {
@@ -28,9 +29,9 @@ class Experience extends Component {
 Experience.propTypes = {
   startYear: PropTypes.number,
   endYear: PropTypes.number,
-  workplaceName: propTypes.string,
-  workplaceTitle: propTypes.string,
-  workplaceDescription: propTypes.string
+  workplaceName: PropTypes.string,
+  workplaceTitle: PropTypes.string,
+  workplaceDescription: PropTypes.string
 };
 
 export default Experience;

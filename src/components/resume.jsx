@@ -24,10 +24,14 @@ class Resume extends Component {
           </h4>
           <hr style={{ borderTop: "3px solid #2c3e50", width: "98%" }} />
           <p>
-            Erfaren utvikler og teknisk konsulent med fartstid innen
-            brukerstøtte, serverdrift og ASP-teknologier. Dyktig i Windows
-            Server, Linux og skytjenester. Grunnleggende ferdigheter i
-            objektorientert programmering og front end webutvikling.
+            Erfaren utvikler og faglært teknisk konsulent med fartstid innen
+            brukerstøtte, serverdrift og ASP-teknologier. For tiden utvikler og
+            partner i Supernode AS.
+          </p>
+          <p>
+            Flere års erfaring med teknisk kundeansvar, og prosjektledelse i
+            IT-prosjekter for en rekke små og mellomstore bedrifter. Nå meg på
+            91 99 99 47 eller mail@jvik.no.
           </p>
           <hr style={{ borderTop: "3px solid #2c3e50", width: "98%" }} />
           <h5>Address</h5>
