@@ -6,15 +6,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
 ```
 node & npm
 ```
 
 ### Installing
-
-A step by step series of examples that tell you how to get a development env running
 
 Clone down the repository
 
@@ -27,8 +23,6 @@ Install the project
 ```shell
 $ npm install
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ### And coding style
 
