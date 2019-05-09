@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  intopro-client:
+    container_name: portfolio-react
+    image: jvik/portfolio-react
+    restart: on-failure
+    ports:
+      - 3005:3000
+    command: ["npm", "start"]
