@@ -1,21 +1,13 @@
 /* Landing page css */
 .header-color {
-	background: #bdc3c7;
-	/* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
-	/* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #2c3e50, #bdc3c7);
-	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background-color: White;
 }
 
-.landing-grid {
+/* .landing-grid {
 	background: #bdc3c7;
-	/* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
-	/* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #2c3e50, #bdc3c7);
-	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+} */
 
 .banner-text {
 	font-family: 'Roboto', sans-serif;
@@ -35,6 +27,7 @@
 	margin: auto;
 	border-radius: 10px;
 	word-wrap: normal;
+	max-width: 35em;
 }
 
 .banner h1 {
@@ -97,7 +90,6 @@
 #mainbox {
 	margin: auto;
 	text-align: center;
-	height: 100vh;
 }
 
 /* Project page css */

@@ -24,7 +24,7 @@ class Experience extends Component {
 
 Experience.propTypes = {
 	startYear: PropTypes.number,
-	endYear: PropTypes.number,
+	endYear: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
 	workplaceName: PropTypes.string,
 	workplaceTitle: PropTypes.string,
 	workplaceDescription: PropTypes.string,

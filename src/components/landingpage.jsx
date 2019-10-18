@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid } from 'react-mdl';
+import { Grid, Cell } from 'react-mdl';
 import profilePhoto from './static/photo.png';
 
 class LandingPage extends Component {
@@ -7,7 +7,7 @@ class LandingPage extends Component {
 		return (
 			<div style={{ width: '100%', margin: 'auto' }}>
 				<Grid className="landing-grid">
-					<cell id="mainbox" col={12}>
+					<Cell id="mainbox" col={12}>
 						<img className="profile-photo" src={profilePhoto} alt="avatar" />
 						<div className="banner">
 							<h1 className="banner-text">System&shy;utvikler</h1>
@@ -28,7 +28,7 @@ class LandingPage extends Component {
 								</a>
 							</div>
 						</div>
-					</cell>
+					</Cell>
 				</Grid>
 			</div>
 		);
