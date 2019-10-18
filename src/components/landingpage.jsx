@@ -12,10 +12,10 @@ class LandingPage extends Component {
 						<img className="profile-photo" src={profilePhoto} alt="avatar" />
 						<div className="banner">
 							<h1 className="banner-text">
-								<Typed strings={['System&shy;utvikler']} typeSpeed={80} />
+								<Typed strings={['Utvikler']} typeSpeed={80} />
 							</h1>
 							<hr />
-							<p className="banner-text">HTML / CSS | JavaScript | Java</p>
+							<p className="banner-text">HTML | CSS | TypeScript | JavaScript</p>
 							<div className="social-links">
 								{/* LinkedIn */}
 								<a
