@@ -2,3 +2,5 @@
 /public/
 /.netlify/
 /build/
+docker-compose.yml
+Dockerfile

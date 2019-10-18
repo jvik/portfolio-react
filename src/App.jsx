@@ -1,38 +1,38 @@
-import React, { Component } from "react";
-import "./App.css";
-import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
-import Main from "./components/main";
-import { Link } from "react-router-dom";
+import React, { Component } from 'react';
+import './App.css';
+import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import Main from './components/main';
+import { Link } from 'react-router-dom';
 
 class App extends Component {
-  render() {
-    return (
-      <div className="mdl-layout mdl-js-layout mdl-layout--no-desktop-drawer-button">
-        <Layout>
-          <Header className="header-color mdl-layout--large-screen-only" scroll>
-            <Navigation className="">
-              <Link to="/">Hjem</Link>
-              <Link to="resume">CV</Link>
-              <Link to="projects">Prosjekter</Link>
-              <Link to="contact">Kontakt meg</Link>
-            </Navigation>
-          </Header>
-          <Drawer className="">
-            <Navigation>
-              <Link to="/">Hjem</Link>
-              <Link to="resume">CV</Link>
-              <Link to="projects">Prosjekter</Link>
-              <Link to="contact">Kontakt meg</Link>
-            </Navigation>
-          </Drawer>
-          <Content>
-            <div className="page-content" />
-            <Main />
-          </Content>
-        </Layout>
-      </div>
-    );
-  }
+	render() {
+		return (
+			<div className="mdl-layout mdl-js-layout mdl-layout--no-desktop-drawer-button">
+				<Layout>
+					<Header className="header-color mdl-layout--large-screen-only" scroll>
+						<Navigation className="">
+							<Link to="/">Hjem</Link>
+							<Link to="resume">CV</Link>
+							<Link to="projects">Prosjekter</Link>
+							<Link to="contact">Kontakt meg</Link>
+						</Navigation>
+					</Header>
+					<Drawer className="">
+						<Navigation>
+							<Link to="/">Hjem</Link>
+							<Link to="resume">CV</Link>
+							<Link to="projects">Prosjekter</Link>
+							<Link to="contact">Kontakt meg</Link>
+						</Navigation>
+					</Drawer>
+					<Content>
+						<div className="page-content" />
+						<Main />
+					</Content>
+				</Layout>
+			</div>
+		);
+	}
 }
 
 export default App;

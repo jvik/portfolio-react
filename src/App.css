@@ -1,199 +1,190 @@
 /* Landing page css */
 .header-color {
-  background: #bdc3c7; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #2c3e50,
-    #bdc3c7
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2c3e50,
-    #bdc3c7
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #bdc3c7;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2c3e50, #bdc3c7);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid {
-  background: #bdc3c7; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to right,
-    #2c3e50,
-    #bdc3c7
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #2c3e50,
-    #bdc3c7
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #bdc3c7;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2c3e50, #bdc3c7);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .banner-text {
-  font-family: "Roboto", sans-serif;
-  opacity: 1;
-  word-break: break-word;
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-  -webkit-hyphens: auto;
-  hyphens: auto;
+	font-family: 'Roboto', sans-serif;
+	opacity: 1;
+	word-break: break-word;
+	-ms-hyphens: auto;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	hyphens: auto;
 }
 
 .banner {
-  background-color: black;
-  opacity: 0.8;
-  padding-left: 2em;
-  padding-right: 2em;
-  margin: auto;
-  border-radius: 10px;
-  word-wrap: normal;
+	background-color: black;
+	opacity: 0.8;
+	padding-left: 2em;
+	padding-right: 2em;
+	margin: auto;
+	border-radius: 10px;
+	word-wrap: normal;
 }
 
 .banner h1 {
-  font-size: 66px;
-  font-weight: bold;
-  color: white;
+	font-size: 66px;
+	font-weight: bold;
+	color: white;
 }
 
 .banner hr {
-  border-top: 5px dotted white;
-  margin: auto;
+	border-top: 5px dotted white;
+	margin: auto;
 }
 
 .banner p {
-  font-family: "Roboto", sans-serif;
-  color: white;
-  font-size: 20px;
-  padding: 1em;
-  margin: auto;
-  text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size: 20px;
+	padding: 1em;
+	margin: auto;
+	text-align: center;
 }
 
 .social-links {
-  font-size: 2.5em;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
+	font-size: 2.5em;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
 }
 
 .social-links i,
 .social-links a {
-  padding-bottom: 0.3em;
-  width: 50px;
-  color: white;
-  text-decoration: none;
+	padding-bottom: 0.3em;
+	width: 50px;
+	color: white;
+	text-decoration: none;
 }
 
 .profile-photo {
-  right: 50%;
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
-  margin-top: 2em;
-  border-style: dotted;
-  border-color: grey;
+	right: 50%;
+	border-radius: 50%;
+	height: 150px;
+	width: 150px;
+	margin-top: 2em;
+	border-style: dotted;
+	border-color: grey;
 }
+
 .cv-photo {
-  right: 50%;
-  border-radius: 50%;
-  height: 200px;
-  width: 200px;
-  margin-right: 28px;
-  margin-top: 2em;
-  border-style: dotted;
-  border-color: grey;
+	right: 50%;
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	margin-right: 28px;
+	margin-top: 2em;
+	border-style: dotted;
+	border-color: grey;
 }
 
 #mainbox {
-  margin: auto;
-  text-align: center;
-  height: 100vh;
+	margin: auto;
+	text-align: center;
+	height: 100vh;
 }
 
 /* Project page css */
 
 .projects-grid h1 {
-  font-family: "Roboto", sans-serif;
-  font-size: 3em;
+	font-family: 'Roboto', sans-serif;
+	font-size: 3em;
 }
 
 .cardContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex: 0 0 auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex: 0 0 auto;
 }
 
 .projectCard {
-  padding: 0.5em;
+	padding: 0.5em;
 }
 
 /* Contact page css */
 
 .contact-body {
-  margin: auto;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  padding-top: 2em;
+	margin: auto;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	padding-top: 2em;
 }
 
 .contact-grid {
-  text-align: center;
-  justify-content: center;
-  width: 80%;
-  height: 550px;
-  background: white;
-  color: black;
+	text-align: center;
+	justify-content: center;
+	width: 80%;
+	height: 550px;
+	background: white;
+	color: black;
 }
 
 .contact-grid h2,
 .contact-grid p {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
 }
 
 .contact-grid hr {
-  border-top: 5px dotted black;
-  width: 50%;
-  margin: auto;
+	border-top: 5px dotted black;
+	width: 50%;
+	margin: auto;
 }
 
 .contact-list i {
-  font-size: 30px;
-  padding-right: 1rem;
+	font-size: 30px;
+	padding-right: 1rem;
 }
 
 /* Resume Page CSS */
 
 .resume-container {
-  display: grid;
-  grid-template-columns: 400px 1fr;
-  grid-gap: 2em;
-  padding: 2em;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
+	display: grid;
+	grid-template-columns: 400px 1fr;
+	grid-gap: 2em;
+	padding: 2em;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
 .resume-right-col {
-  background: #27221f;
-  color: white;
-  padding: 1.5em;
+	background: #27221f;
+	color: white;
+	padding: 1.5em;
 }
 
 .resume-right-col h3 {
-  padding: 0.4em;
-  margin: 0;
+	padding: 0.4em;
+	margin: 0;
 }
 
 @media only screen and (max-width: 1126px) {
-  .resume-container {
-    grid-template-columns: 1fr;
-  }
+	.resume-container {
+		grid-template-columns: 1fr;
+	}
 
-  .cv-photo {
-    margin-right: 0px;
-  }
+	.cv-photo {
+		margin-right: 0px;
+	}
 }

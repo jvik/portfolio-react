@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class AboutMe extends Component {
-  render() {
-    return <div />;
-  }
+	render() {
+		return <div />;
+	}
 }
 
 export default AboutMe;
