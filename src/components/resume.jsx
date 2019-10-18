@@ -29,7 +29,9 @@ class Resume extends Component {
 					<p>mail@jvik.no</p>
 					<h5>Linkedin</h5>
 					<p>
-						<a href="https://www.linkedin.com/in/vikjorgen/">vikjorgen</a>
+						<a className="link" href="https://www.linkedin.com/in/vikjorgen/">
+							vikjorgen
+						</a>
 					</p>
 				</div>
 

@@ -14,14 +14,18 @@ class Contact extends Component {
 								<ListItem>
 									<ListItemContent style={{ fontSize: '25px' }}>
 										<i className="fas fa-envelope-square" />
-										<a href="mailto:mail@jvik.no">mail@jvik.no</a>
+										<a className="link" href="mailto:mail@jvik.no">
+											mail@jvik.no
+										</a>
 									</ListItemContent>
 								</ListItem>
 
 								<ListItem>
 									<ListItemContent style={{ fontSize: '25px' }}>
 										<i className="fab fa-linkedin-in" />
-										<a href="https://www.linkedin.com/in/vikjorgen/">vikjorgen</a>
+										<a className="link" href="https://www.linkedin.com/in/vikjorgen/">
+											vikjorgen
+										</a>
 									</ListItemContent>
 								</ListItem>
 							</List>

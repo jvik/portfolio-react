@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import profilePhoto from './static/photo.png';
+import Typed from 'react-typed';
 
 class LandingPage extends Component {
 	render() {
@@ -10,7 +11,9 @@ class LandingPage extends Component {
 					<Cell id="mainbox" col={12}>
 						<img className="profile-photo" src={profilePhoto} alt="avatar" />
 						<div className="banner">
-							<h1 className="banner-text">System&shy;utvikler</h1>
+							<h1 className="banner-text">
+								<Typed strings={['System&shy;utvikler']} typeSpeed={80} />
+							</h1>
 							<hr />
 							<p className="banner-text">HTML / CSS | JavaScript | Java</p>
 							<div className="social-links">
