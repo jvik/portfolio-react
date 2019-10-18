@@ -1,6 +1,6 @@
 /* Landing page css */
 .header-color {
-	background-color: White;
+	background-color: #4e9dac;
 }
 
 /* .landing-grid {
@@ -20,7 +20,7 @@
 }
 
 .banner {
-	background-color: black;
+	background-color: #f2f3f1;
 	opacity: 0.8;
 	padding-left: 2em;
 	padding-right: 2em;
@@ -33,17 +33,17 @@
 .banner h1 {
 	font-size: 66px;
 	font-weight: bold;
-	color: white;
+	color: #202127;
 }
 
 .banner hr {
-	border-top: 5px dotted white;
+	border-top: 5px dotted #202127;
 	margin: auto;
 }
 
 .banner p {
 	font-family: 'Roboto', sans-serif;
-	color: white;
+	color: #202127;
 	font-size: 20px;
 	padding: 1em;
 	margin: auto;
@@ -62,7 +62,7 @@
 .social-links a {
 	padding-bottom: 0.3em;
 	width: 50px;
-	color: white;
+	color: #202127;
 	text-decoration: none;
 }
 
@@ -161,7 +161,7 @@
 }
 
 .resume-right-col {
-	background: #27221f;
+	background: #202127;
 	color: white;
 	padding: 1.5em;
 }
