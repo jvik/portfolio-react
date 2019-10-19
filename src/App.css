@@ -23,7 +23,7 @@
 } */
 
 .banner-text {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto mono', monospace;
 	opacity: 1;
 	word-break: break-word;
 	-ms-hyphens: auto;
@@ -44,10 +44,11 @@
 }
 
 .banner h1 {
-	padding-top: 0.2em;
+	padding-top: 0.3em;
+	margin-bottom: 0.3em;
 	font-family: 'Roboto Mono', monospace;
 	font-size: 50px;
-	/* font-weight: bold; */
+	font-weight: bold;
 	color: #202127;
 }
 
@@ -57,7 +58,7 @@
 }
 
 .banner p {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto mono', monospace;
 	color: #202127;
 	font-size: 20px;
 	padding: 1em;

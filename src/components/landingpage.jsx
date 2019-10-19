@@ -11,11 +11,11 @@ class LandingPage extends Component {
 					<Cell id="mainbox" col={12}>
 						<img className="profile-photo" src={profilePhoto} alt="avatar" />
 						<div className="banner">
-							<h1 className="banner-text">
-								<Typed strings={['Utvikler']} typeSpeed={80} />
-							</h1>
+							<h1>Jørgen Vik</h1>
 							<hr />
-							<p className="banner-text">HTML | CSS | TypeScript | JavaScript</p>
+							<p className="banner-text">
+								<Typed id="face" strings={['HTML | CSS | TypeScript | JavaScript']} typeSpeed={60} />
+							</p>
 							<div className="social-links">
 								{/* LinkedIn */}
 								<a
