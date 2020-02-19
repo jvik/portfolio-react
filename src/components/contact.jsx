@@ -28,6 +28,15 @@ class Contact extends Component {
 										</a>
 									</ListItemContent>
 								</ListItem>
+
+								<ListItem>
+									<ListItemContent style={{ fontSize: '25px' }}>
+										<i className="fab fa-github" />
+										<a className="link" href="https://github.com/jvik">
+											jvik
+										</a>
+									</ListItemContent>
+								</ListItem>
 							</List>
 						</div>
 					</Cell>
