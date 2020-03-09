@@ -16,12 +16,6 @@
 	background-color: #4e9dac;
 }
 
-/* .landing-grid {
-	background: #bdc3c7;
-	background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
-	background: linear-gradient(to right, #2c3e50, #bdc3c7);
-} */
-
 .banner-text {
 	font-family: 'Roboto mono', monospace;
 	opacity: 1;
@@ -185,6 +179,19 @@
 .resume-right-col h3 {
 	padding: 0.4em;
 	margin: 0;
+}
+
+/* Overrides */
+.mdl-layout__inner-container .mdl-layout__header .mdl-layout__header-row {
+	padding: 0;
+}
+
+.mdl-layout__inner-container .mdl-layout__header {
+	background-color: #4e9dac;
+}
+
+.mdl-layout__content {
+	padding-top: 1em;
 }
 
 @media only screen and (max-width: 1126px) {

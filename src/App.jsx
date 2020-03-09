@@ -9,11 +9,11 @@ class App extends Component {
 		return (
 			<div className="mdl-layout mdl-js-layout mdl-layout--no-desktop-drawer-button">
 				<Layout>
-					<Header className="header-color mdl-layout--large-screen-only" scroll>
+					<Header className="header-color pl-0 mdl-layout--large-screen-only" scroll>
 						<Navigation className="">
 							<Link to="/">Hjem</Link>
 							<Link to="resume">CV</Link>
-							{/* <Link to="projects">Prosjekter</Link> */}
+							<Link to="projects">Prosjekter</Link>
 							<Link to="contact">Kontakt meg</Link>
 						</Navigation>
 					</Header>
@@ -21,7 +21,7 @@ class App extends Component {
 						<Navigation>
 							<Link to="/">Hjem</Link>
 							<Link to="resume">CV</Link>
-							{/* <Link to="projects">Prosjekter</Link> */}
+							<Link to="projects">Prosjekter</Link>
 							<Link to="contact">Kontakt meg</Link>
 						</Navigation>
 					</Drawer>
