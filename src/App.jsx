@@ -11,18 +11,18 @@ class App extends Component {
 				<Layout>
 					<Header className="header-color pl-0 mdl-layout--large-screen-only" scroll>
 						<Navigation className="">
-							<Link to="/">Hjem</Link>
+							<Link to="/">Home</Link>
 							<Link to="resume">CV</Link>
-							<Link to="projects">Prosjekter</Link>
-							<Link to="contact">Kontakt meg</Link>
+							<Link to="projects">Projects</Link>
+							<Link to="contact">Contact</Link>
 						</Navigation>
 					</Header>
 					<Drawer className="">
 						<Navigation>
-							<Link to="/">Hjem</Link>
+							<Link to="/">Home</Link>
 							<Link to="resume">CV</Link>
-							<Link to="projects">Prosjekter</Link>
-							<Link to="contact">Kontakt meg</Link>
+							<Link to="projects">Projects</Link>
+							<Link to="contact">Contact</Link>
 						</Navigation>
 					</Drawer>
 					<Content>
