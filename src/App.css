@@ -205,6 +205,10 @@
 		grid-template-columns: 1fr;
 	}
 
+	.cardContainer {
+		padding-top: 1.5em;
+	}
+
 	.cv-photo {
 		margin-right: 0px;
 	}
