@@ -11,7 +11,6 @@
 		"prop-types": "^15.7.2",
 		"react": "^16.13.0",
 		"react-dom": "^16.10.2",
-		"react-flexbox-grid": "^2.1.2",
 		"react-mdl": "^1.11.0",
 		"react-router-dom": "^4.3.1",
 		"react-scripts": "^3.4.0",
