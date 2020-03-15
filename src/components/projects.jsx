@@ -23,6 +23,39 @@ class Projects extends Component {
 							<CardTitle
 								style={{
 									maginTop: '0.1em',
+								}}
+							>
+								Sundbåten Departures
+							</CardTitle>
+							<CardText style={{ height: '100%' }}>
+								<p>
+									PWA made with VueJS fetching departures from entur's open GraphQL API and presenting
+									the upcoming departures.
+								</p>
+							</CardText>
+							<CardActions border>
+								<a href="https://github.com/jvik/sundbaaten-webapp">
+									<Button colored>
+										<i className="fab fa-github" /> GitHub
+									</Button>
+								</a>
+								<a href="https://sundbaat.jvik.no">
+									<Button colored>
+										<i className="fas fa-vial" /> Demo
+									</Button>
+								</a>
+							</CardActions>
+						</Card>
+						<Card
+							className="projectCard"
+							shadow={2}
+							style={{
+								margin: '1em',
+							}}
+						>
+							<CardTitle
+								style={{
+									maginTop: '0.1em',
 									background: `url(${coronaPhoto}) center / cover`,
 								}}
 							>
