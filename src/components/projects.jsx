@@ -101,6 +101,9 @@ class Projects extends Component {
 									statistics, reports etc. Built with VueJS + Quasar and NodeJS.
 								</p>
 								<p>No demo available. Licenses can be purchased.</p>
+								<p>
+									<b>Developed at Supernode</b>
+								</p>
 							</CardText>
 							<CardActions border>
 								<a href="https://abyss.no">
@@ -131,6 +134,9 @@ class Projects extends Component {
 									REST API and VueJS + Quasar front end.
 								</p>
 								<p>No demo available. Licenses can be purchased.</p>
+								<p>
+									<b>Developed at Supernode</b>
+								</p>
 							</CardText>
 							<CardActions border>
 								<a href="https://iso-piloten.no">
@@ -148,6 +154,9 @@ class Projects extends Component {
 									Startup developed by Supernode, Eggedosis and ISO-Piloten.
 								</p>
 								<p>No demo available. Licenses can be purchased.</p>
+								<p>
+									<b>Developed at Supernode</b>
+								</p>
 							</CardText>
 							<CardActions border>
 								<a href="https://intopro.no">
